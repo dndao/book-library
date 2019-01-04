@@ -1,6 +1,7 @@
 body {
   background: #eee;
   font-family: "Arial";
+  --main-bg-color: #C81D25;
 }
 
 #main {
@@ -24,10 +25,16 @@ body {
   margin: 12px;
   padding: 10px;
   border-radius: 4px;
-  border: 1px solid #C81D25;
+  border: 1px solid var(--main-bg-color);
   box-shadow: 1px 2px 3px rbga(0,0,0,3);
   cursor: pointer;
-  color: #C81D25;
+  color: var(--main-bg-color);
+  transition: 0.5s;
+}
+
+#book-list li:hover {
+  background: var(--main-bg-color);
+  color: #fff;
 }
 
 form {
@@ -56,7 +63,7 @@ form select, form input {
   padding: 6px;
   box-sizing: border-box;
   height: 40px;
-  border: 1 solid #C81D25;
+  border: 1 solid #000;
   border-radius: 5px;
   font-size: 15px;
 }
@@ -64,14 +71,21 @@ form select, form input {
 form button {
   color: #fff;
   font-size: 2em;
-  background: #C81D25;
+  background: var(--main-bg-color);
   border: 0;
   padding: 0 10px;
+  padding-bottom: 5px;
   border-radius: 50%;
   cursor: pointer;
   position: absolute;
   bottom: 10px;
   left: 10px;
+  transition: 0.5s;
+}
+
+form button:hover {
+  bottom: 14px;
+  box-shadow: 0 5px 8px rgba(0,0,0,0.3)
 }
 
 #book-details {
@@ -80,7 +94,7 @@ form button {
   right: 0;
   width: 40%;
   height: 100%;
-  background: #C81D25;
+  background: var(--main-bg-color);
   padding: 30px;
   overflow: auto;
   box-shadow: -2px -3px 5px rgba(0,0,0,0.3);
