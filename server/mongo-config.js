@@ -1,6 +1,6 @@
 const MONGODB = {
-  MONGODB_USERNAME: "Daniel",
-  MONGODB_PASSWORD: "Deoco234"
+  MONGODB_USERNAME: "Test",
+  MONGODB_PASSWORD: "Test"
 };
 
 module.exports = MONGODB;
