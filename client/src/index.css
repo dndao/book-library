@@ -24,10 +24,10 @@ body {
   margin: 12px;
   padding: 10px;
   border-radius: 4px;
-  border: 1px solid #20BF55;
+  border: 1px solid #C81D25;
   box-shadow: 1px 2px 3px rbga(0,0,0,3);
   cursor: pointer;
-  color: #20BF55;
+  color: #C81D25;
 }
 
 form {
@@ -37,6 +37,7 @@ form {
   left: 0;
   bottom: 0;
   width: 400px;
+  border-top-right-radius: 20px;
 }
 
 form .field {
@@ -55,7 +56,7 @@ form select, form input {
   padding: 6px;
   box-sizing: border-box;
   height: 40px;
-  border: 1 solid #20BF55;
+  border: 1 solid #C81D25;
   border-radius: 5px;
   font-size: 15px;
 }
@@ -63,7 +64,7 @@ form select, form input {
 form button {
   color: #fff;
   font-size: 2em;
-  background: #20BF55;
+  background: #C81D25;
   border: 0;
   padding: 0 10px;
   border-radius: 50%;
@@ -79,7 +80,7 @@ form button {
   right: 0;
   width: 40%;
   height: 100%;
-  background: #20BF55;
+  background: #C81D25;
   padding: 30px;
   overflow: auto;
   box-shadow: -2px -3px 5px rgba(0,0,0,0.3);
