@@ -1,4 +1,4 @@
-# Reading Book List
+# Reading List
 A book library with React, Nodejs and GraphQL
 
 ## Getting Started
