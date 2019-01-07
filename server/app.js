@@ -3,6 +3,7 @@ const graphqlHTTP = require('express-graphql');
 const schema = require('./schema/schema');
 const mongoose = require('mongoose');
 const mongo_config = require('./mongo-config');
+const mongo_config_test = require('./mongo-config-test');
 const cors = require('cors');
 
 const app = express();
